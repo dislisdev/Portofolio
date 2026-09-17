@@ -44,7 +44,7 @@ window.PORTFOLIO = {
                 el: "Τα φυσικοθεραπευτήρια χάνουν ραντεβού και πελάτες όταν δεν προλαβαίνουν να απαντήσουν στο τηλέφωνο — ιδιαίτερα τις ώρες αιχμής. Έφτιαξα τη Ρέα ως μια AI γραμματεία που απαντά αντί για ανθρώπινο προσωπικό, κλείνει/μεταφέρει/ακυρώνει ραντεβού μέσα από φυσική συνομιλία στα ελληνικά, χωρίς ο πελάτης να καταλαβαίνει ότι μιλάει με bot."
             },
             technologies: ["PHP", "SQLite", "Vanilla JS", "Claude API (tool use)", "Railway"],
-            modalUrl: "https://ai-receptionist-production-d890.up.railway.app/",
+            modalUrl: "ai-receptionistgr.up.railway.app",
             linkNote: null,
             liveUrl: null,
             sourceUrl: null
