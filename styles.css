@@ -1292,3 +1292,7 @@ h3 {
         width: 6.5rem;
     }
 }
+
+@media print {
+  .skip-link { display: none !important; }
+}
