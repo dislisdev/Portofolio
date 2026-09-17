@@ -134,7 +134,16 @@ svg {
     padding: 1rem;
     background: var(--color-ink);
     color: var(--color-white);
+    max-width: calc(100vw - 2rem);
     transform: translateY(-200%);
+}
+.skip-link:not(:focus) {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
 }
 .skip-link:focus {
     transform: translateY(0);

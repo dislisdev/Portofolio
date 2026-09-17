@@ -104,7 +104,7 @@
             aboutTitle: "Περιέργεια.<br>Με γερά θεμέλια.",
             aboutDescription: "Οι σπουδές μου στο Πανεπιστήμιο Θεσσαλίας διαμορφώνουν τον τρόπο που προσεγγίζω το software: κατανοώ το σύστημα, εξετάζω τις λεπτομέρειες και έπειτα δημιουργώ.",
             academicBackground: "Ακαδημαϊκό υπόβαθρο",
-            degree: "Master's in Electrical Eng | Electrical Engineering",
+            degree: "Master's in Electrical Eng | Computer Engineering",
             university: "Πανεπιστήμιο Θεσσαλίας",
             educationNote: "Μηχανική σκέψη.<br>Εστίαση στο web.",
             systemsThinking: "Συστημική σκέψη",
