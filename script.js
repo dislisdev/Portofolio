@@ -64,7 +64,7 @@
             artLearning: "LEARNING SITE",
             pageTitle: "dislis.com — Full Stack Developer",
             metaDescription:
-                "Full stack developer. Master's in Electrical Eng | Electrical Engineering, University of Thessaly. Explore Ρέα, halvasfarsalon.gr and a Linear Programming learning site.",
+                "Full stack developer. Master's in Electrical Eng | Computer Engineering, University of Thessaly. Explore Ρέα, halvasfarsalon.gr and a Linear Programming learning site.",
             toggleLabel: "Switch to Greek"
         },
 
