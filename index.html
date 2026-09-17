@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en" data-language="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Full stack developer. Master's in Electrical Eng | Electrical Engineering, University of Thessaly. Explore Ρέα, halvasfarsalon.gr and a Linear Programming learning site.">
+    <meta name="theme-color" content="#f5f5f7">
+    <title>dislis.com — Full Stack Developer</title>
+    <link rel="icon" type="image/png" sizes="256x256" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="content.js" defer></script>
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="navigation container" aria-label="Main navigation" data-i18n-aria="mainNav">
+            <a class="wordmark" href="/" aria-label="Home" data-i18n-aria="home">
+                <span class="logo-main">dislis</span>
+                <span class="logo-domain">.com</span>
+            </a>
+
+            <div class="nav-cluster">
+                <div class="nav-links">
+                    <a href="#work" data-i18n="navWork">Work</a>
+                    <a href="#about" data-i18n="navAbout">About</a>
+                    <a href="#contact">
+                        <span data-i18n="navContact">Contact</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+                <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch to Greek">
+                    <span data-language-option="el">ΕΛ</span>
+                    <span class="toggle-divider" aria-hidden="true">/</span>
+                    <span data-language-option="en">EN</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="hero container" id="home" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="role" data-i18n="role">Full stack developer</p>
+                <h1 id="hero-title" data-i18n-html="heroTitle">Every layer.<br><span>One vision.</span></h1>
+                <p class="hero-description" data-i18n="heroDescription">From the first interaction to the logic behind it. I build for the whole experience.</p>
+                <a class="button button-primary" href="#work">
+                    <span data-i18n="explore">Explore my work</span>
+                    <span aria-hidden="true">↗</span>
+                </a>
+                <div class="hero-footnote">
+                    <span class="tiny-line" aria-hidden="true"></span>
+                    <span data-i18n-html="educationShort">Master's in Electrical Eng | Computer Engineering<br>University of Thessaly</span>
+                </div>
+            </div>
+            <div class="stack-experience" aria-label="Interactive full stack diagram" data-i18n-aria="stackDiagram">
+                <div class="stack-topline">
+                    <span data-i18n="wholePicture">The whole picture.</span>
+                    <span class="diagram-symbol" aria-hidden="true">⌘</span>
+                </div>
+                <div class="stack-stage" data-layer="interface">
+                    <div class="stack-perspective">
+                        <button class="layer layer-data" type="button" data-layer="data" aria-pressed="false" aria-controls="layer-description">
+                            <span class="layer-icon" aria-hidden="true">≡</span>
+                            <span class="layer-title" data-i18n="layerData">Data</span>
+                            <span class="layer-code" aria-hidden="true">03</span>
+                        </button>
+                        <button class="layer layer-logic" type="button" data-layer="logic" aria-pressed="false" aria-controls="layer-description">
+                            <span class="layer-icon" aria-hidden="true">{ }</span>
+                            <span class="layer-title" data-i18n="layerLogic">Logic</span>
+                            <span class="layer-code" aria-hidden="true">02</span>
+                        </button>
+                        <button class="layer layer-interface" type="button" data-layer="interface" aria-pressed="true" aria-controls="layer-description">
+                            <span class="layer-icon" aria-hidden="true">↗</span>
+                            <span class="layer-title" data-i18n="layerInterface">Interface</span>
+                            <span class="layer-code" aria-hidden="true">01</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="stack-caption" id="layer-description" aria-live="polite" aria-atomic="true">
+                    <span class="caption-index">01 / 03</span>
+                    <div>
+                        <strong>The part you feel.</strong>
+                        <p>Clear interfaces. Thoughtful interactions.</p>
+                    </div>
+                </div>
+                <p class="stack-hint">
+                    <span data-i18n="selectLayer">Select a layer to explore</span>
+                    <span aria-hidden="true">↑</span>
+                </p>
+            </div>
+        </section>
+
+        <section class="work-section" id="work" aria-labelledby="work-title">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-intro" data-i18n="workIntro">A look at what I’m building</p>
+                        <h2 id="work-title" data-i18n="workTitle">Work.</h2>
+                    </div>
+                    <div class="project-filter" id="project-filter">
+                        <button class="project-filter-trigger" type="button" aria-expanded="false" aria-controls="project-filter-menu" data-i18n-aria="filterProjects">
+                            <span data-filter-label data-i18n="allProjects">All projects</span>
+                            <span class="project-filter-arrow" aria-hidden="true">⌄</span>
+                        </button>
+                        <div class="project-filter-menu" id="project-filter-menu" role="menu" aria-hidden="true">
+                            <button type="button" role="menuitemradio" aria-checked="true" data-project-filter="all" data-i18n="allProjects">All projects</button>
+                            <button type="button" role="menuitemradio" aria-checked="false" data-project-filter="completed" data-i18n="completedProjects">Completed projects</button>
+                            <button type="button" role="menuitemradio" aria-checked="false" data-project-filter="progress" data-i18n="progressProjects">Projects in progress</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-grid">
+                    <article class="project project-light" data-project="0">
+                        <div class="project-art" aria-hidden="true">
+                            <span class="project-art-word" data-i18n-html="artReceptionistName">Ρέα<span>.</span></span>
+                            <span class="project-art-number">01</span>
+                            <span class="project-art-caption" data-i18n="artReceptionist">AI RECEPTIONIST</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-info">
+                                <div>
+                                    <p class="project-status" data-field="category">AI receptionist</p>
+                                    <h3 data-field="title" lang="el">Ρέα</h3>
+                                    <p class="project-summary" data-field="summary">A Greek-speaking AI receptionist for a physiotherapy clinic. It books, reschedules and cancels appointments through conversation.</p>
+                                </div>
+                                <button class="round-button project-open" data-project-open="0" aria-label="Read about Ρέα" hidden>
+                                    <span aria-hidden="true">↗</span>
+                                </button>
+                            </div>
+                            <div class="project-tags" data-field="tags">
+                                <span>PHP</span>
+                                <span>SQLite</span>
+                                <span>Vanilla JS</span>
+                                <span>Claude API (tool use)</span>
+                                <span>Railway</span>
+                            </div>
+                            <div class="project-links" data-field="links"></div>
+                        </div>
+                    </article>
+                    <article class="project project-dark" data-project="1">
+                        <div class="project-art" aria-hidden="true">
+                            <span class="project-art-number">02</span>
+                            <span class="project-art-word">halvas<br>farsalon<span>.gr</span></span>
+                            <span class="project-art-caption" data-i18n="artB2B">B2B WEBSITE · LARISSA</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-info">
+                                <div>
+                                    <p class="project-status" data-field="category">B2B website</p>
+                                    <h3 data-field="title">halvasfarsalon.gr</h3>
+                                    <p class="project-summary" data-field="summary">A B2B website for a traditional halva producer in Larissa.</p>
+                                </div>
+                                <button class="round-button project-open" data-project-open="1" aria-label="Read about halvasfarsalon.gr" hidden>
+                                    <span aria-hidden="true">↗</span>
+                                </button>
+                            </div>
+                            <div class="project-tags" data-field="tags"></div>
+                            <div class="project-links" data-field="links"></div>
+                        </div>
+                    </article>
+                    <article class="project project-light project-wide" data-project="2">
+                        <div class="project-art" aria-hidden="true">
+                            <span class="project-art-word" data-i18n-html="artLinear">Linear<br>Programming<span>.</span></span>
+                            <span class="project-art-number">03</span>
+                            <span class="project-art-caption" data-i18n="artLearning">LEARNING SITE</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-info">
+                                <div>
+                                    <p class="project-status" data-field="category">Linear Programming learning site</p>
+                                    <h3 data-field="title" hidden></h3>
+                                    <p class="project-summary" data-field="summary">A Greek-language learning site for Linear Programming, built for a university professor.</p>
+                                </div>
+                                <button class="round-button project-open" data-project-open="2" aria-label="Read about the Linear Programming learning site" hidden>
+                                    <span aria-hidden="true">↗</span>
+                                </button>
+                            </div>
+                            <div class="project-tags" data-field="tags"></div>
+                            <div class="project-links" data-field="links"></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section container" id="about" aria-labelledby="about-title">
+            <div class="about-heading">
+                <p class="section-intro" data-i18n="aboutIntro">Behind the work</p>
+                <h2 id="about-title" data-i18n-html="aboutTitle">Curiosity.<br>With a foundation.</h2>
+                <p class="about-description" data-i18n="aboutDescription">My studies at the University of Thessaly shape the way I approach software: understand the system, question the details, then build.</p>
+            </div>
+            <div class="education-deck">
+                <div class="education-stage">
+                    <div class="education-panel" data-position="0" aria-hidden="false">
+                        <span class="education-icon" aria-hidden="true">∿</span>
+                        <div>
+                            <p class="education-label" data-i18n="academicBackground">Academic background</p>
+                            <h3 data-i18n="degree">Master's in Electrical Eng | Computer Engineering</h3>
+                            <p class="university" data-i18n="university">University of Thessaly</p>
+                            <p class="education-note" data-i18n-html="educationNote">An engineering perspective.<br>A focus on the web.</p>
+                        </div>
+                        <div class="education-bottom">
+                            <span data-i18n="systemsThinking">Systems thinking</span>
+                            <span aria-hidden="true">↗</span>
+                        </div>
+                    </div>
+                    <div class="education-panel" data-position="1" aria-hidden="true">
+                        <span class="education-icon" aria-hidden="true">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="18" y="4" width="12" height="10" rx="2"/>
+                                <path d="M24 14v10M10 34V24h28v10"/>
+                                <rect x="4" y="34" width="12" height="10" rx="2"/>
+                                <rect x="32" y="34" width="12" height="10" rx="2"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <p class="education-label" data-i18n="secondaryEducation">Secondary education</p>
+                            <h3>Computer Systems &amp; Networks Technician.</h3>
+                            <p class="university">Vocational high school diploma · Informatics</p>
+                            <p class="education-note" aria-hidden="true"></p>
+                        </div>
+                        <div class="education-bottom" aria-hidden="true"></div>
+                    </div>
+                    <div class="education-panel" data-position="2" aria-hidden="true">
+                        <span class="education-icon" aria-hidden="true">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M24 4 40 10v13c0 10-8 17-16 21C16 40 8 33 8 23V10Z"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <p class="education-label" data-i18n="militaryObligations">Military obligations</p>
+                            <h3>Military service.</h3>
+                            <p class="university">Completed</p>
+                            <p class="education-note" aria-hidden="true"></p>
+                        </div>
+                        <div class="education-bottom" aria-hidden="true"></div>
+                    </div>
+                </div>
+                <div class="deck-controls">
+                    <button type="button" class="deck-dot" data-direction="next" aria-label="Next card" data-i18n-aria="nextCard"></button>
+                    <button type="button" class="deck-dot" data-direction="previous" aria-label="Previous card" data-i18n-aria="previousCard"></button>
+                </div>
+                <p class="visually-hidden" id="deck-announcement" aria-live="polite" aria-atomic="true"></p>
+            </div>
+        </section>
+        <section class="experience-section" id="experience" aria-labelledby="experience-title">
+            <div class="container experience-layout">
+                <div>
+                    <p class="section-intro" data-i18n="experience">Experience</p>
+                    <h2 id="experience-title">Real work.<br><span class="typing-line" data-typing-text="Real people."><span class="typing-text">Real people.</span><span class="typing-cursor" aria-hidden="true"></span></span></h2>
+                </div>
+                <div class="experience-list" id="experience-list"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+            <p class="section-intro" data-i18n="contactIntro">Have something in mind?</p>
+            <h2 id="contact-title" data-i18n-html="contactTitle">Let’s make<br>it happen<span>.</span></h2>
+            <div class="contact-actions">
+                <a class="button button-primary" id="linkedin-contact" href="https://www.linkedin.com/in/periklis-dislis-4b7023287/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+                <a class="button button-primary" id="email-link" hidden>
+                    <span data-i18n="sayHello">Say hello</span>
+                    <span aria-hidden="true">↗</span>
+                </a>
+                <button class="copy-email" id="copy-email" type="button" hidden>
+                    <span data-i18n="copyEmail">Copy email</span>
+                    <span aria-hidden="true">⧉</span>
+                </button>
+            </div>
+
+            <div class="footer-bottom">
+                <a class="wordmark" href="/">
+                    <span class="logo-main">dislis</span>
+                    <span class="logo-domain">.com</span>
+                </a>
+                <div class="social-links" id="social-links">
+                    <a href="https://www.linkedin.com/in/periklis-dislis-4b7023287/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                    <a href="https://github.com/dislisdev" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                </div>
+                <span class="copyright">© <span id="year">2026</span></span>
+            </div>
+        </div>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+        <div class="dialog-top">
+            <span class="project-status" id="dialog-category">Project details</span>
+            <button type="button" class="round-button" id="close-dialog" aria-label="Close project details" data-i18n-aria="closeProject">×</button>
+        </div>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-summary"></p>
+        <div id="dialog-tags" class="project-tags"></div>
+        <div id="dialog-description" class="dialog-description"></div>
+        <div id="dialog-links" class="dialog-links"></div>
+    </dialog>
+    <div class="toast" role="status" id="toast" hidden></div>
+</body>
+</html>
