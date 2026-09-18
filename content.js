@@ -75,7 +75,7 @@ window.PORTFOLIO = {
                 el: "Ο Γραμμικός Προγραμματισμός διδάσκεται συχνά με στατικό υλικό (σημειώσεις, διαφάνειες) που δεν βοηθά τους φοιτητές να κατανοήσουν διαισθητικά πώς λειτουργούν οι μέθοδοι επίλυσης. Πήρα την πρωτοβουλία να φτιάξω μια διαδραστική εκπαιδευτική ιστοσελίδα στα ελληνικά, σε επικοινωνία με πανεπιστημιακό καθηγητή, ώστε οι φοιτητές να έχουν ένα πιο εύκολο και διαδραστικό εργαλείο μελέτης πάνω στο θέμα.",
                 en: "Linear Programming is often taught using static material (notes and slides) that does not help students develop an intuitive understanding of how solution methods work. I took the initiative to build an interactive learning website in Greek, in communication with a university professor, to give students an easier and more interactive tool for studying the subject."
             },
-            modalUrl: "https:google.com",
+            modalUrl: "https://dislisdev.github.io/LinearProgrammingUTH/?lang=en#chapter-1",
             category: {
                 en: "Linear Programming learning site",
                 el: "Εκπαιδευτική ιστοσελίδα Γραμμικού Προγραμματισμού"
